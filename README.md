@@ -1,5 +1,5 @@
 # Uaithne Java
-Backend architecture oriented to improve the productivity of the development team using Java.
+Agile backend architecture oriented to improve the productivity of the development team using Java.
 
 ## Goals
 -   Easy application for backend development
@@ -14,3 +14,8 @@ Get the backend resemble a **set of LEGO**, where there are **highly interchange
 ## Design
 - **English**: [Uaithne Java (EN).pdf](https://github.com/juanluispaz/uaithne-java/raw/master/Uaithne%20Java%20%28EN%29.pdf)
 - **Spanish**: [Uaithne Java (ES).pdf](https://github.com/juanluispaz/uaithne-java/raw/master/Uaithne%20Java%20%28ES%29.pdf)
+
+## Generator
+Improving the productivity of the development team has been one of the great motivations behind the design of the architecture of Uaithne, and it alone represents a great improvement over the classical n-tier architecture. After implementing the new architecture there was still room to improve productivity, automatically generating code that is responsible for handling the verbosity required by Java, and above all, that generates the access code to the database with its respective SQL queries that handles most operations. Its usage is entirely optional.
+
+**Code generator project**: [Uaithne generator Java](https://github.com/juanluispaz/uaithne-generator-java)
